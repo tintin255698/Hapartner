@@ -1,0 +1,33 @@
+{
+    "devDependencies": {
+        "@fortawesome/fontawesome-free": "^6.1.2",
+        "@hotwired/stimulus": "^3.0.0",
+        "@popperjs/core": "^2.11.6",
+        "@symfony/stimulus-bridge": "^3.2.0",
+        "@symfony/webpack-encore": "^3.0.0",
+        "bootstrap": "^5.2.0",
+        "core-js": "^3.23.0",
+        "jquery": "^3.6.0",
+        "media-query-plugin": "^1.5.0",
+        "popper.js": "^1.16.1",
+        "regenerator-runtime": "^0.13.9",
+        "sass": "^1.54.3",
+        "sass-loader": "^13.0.0",
+        "webpack-notifier": "^1.15.0"
+    },
+    "license": "UNLICENSED",
+    "private": true,
+    "scripts": {
+        "dev-server": "encore dev-server",
+        "dev": "encore dev",
+        "watch": "encore dev --watch",
+        "build": "encore production --progress"
+    },
+    "dependencies": {
+        "@types/aos": "^3.0.4",
+        "aos": "^3.0.0-beta.6",
+        "bs-custom-file-input": "^1.3.4",
+        "font-awesome": "^4.7.0",
+        "owl.carousel": "^2.3.4"
+    }
+}

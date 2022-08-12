@@ -1,0 +1,93 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Candidature{% endblock %}
+
+{% block body %}
+
+<style>
+
+    .back{
+        background-color: #17203A;
+        border-top-right-radius: 33px;
+        border-bottom-right-radius: 33px
+    }
+    p, h3{
+        color:white;
+    }
+    .disp2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        min-height: 70%;
+    }
+    h3{
+        font-weight: bold;
+    }
+    p{
+        font-style:italic ;
+    }
+    .bord{
+        border: 1px black solid;
+        border-top-left-radius: 33px;
+        border-bottom-left-radius: 33px
+    }
+
+</style>
+
+<section class="contact">
+    <div class="text">
+        <h1>Nous rejoindre</h1>
+    </div>
+    <div class="container mb-5">
+        <h2 class="mt-5 mb-5 text-center">Rejoignez-nous !</h2>
+        {{ form_start(form) }}
+        <div class="row ">
+            <div class="col">
+                {{ form_row(form.firstName) }}
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col mb-3">
+                {{ form_row(form.name) }}
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col mb-3">
+                {{ form_row(form.experience) }}
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col mb-3">
+                {{ form_row(form.email) }}
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col mb-3">
+                {{ form_row(form.telephone) }}
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col mb-3">
+                {{ form_row(form.cv) }}
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col mb-3">
+                {{ form_row(form.lm) }}
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col mb-3">
+                {{ form_row(form.envoyer) }}
+            </div>
+        </div>
+
+
+        {{ form_end(form) }}
+    </div>
+</section>
+
+
+
+{% endblock %}

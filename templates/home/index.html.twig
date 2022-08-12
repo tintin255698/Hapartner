@@ -1,0 +1,173 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Accueil{% endblock %}
+
+{% block body %}
+    <div id="preloader">
+        <div id="status">&nbsp;</div>
+    </div>
+    <a href="#metier">
+    <div class="text">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">  <h1 class="text-center">AUDIT</h1>
+                    <p>En savoir plus</p>
+                    <div class="mouse_scroll">
+                        <div class="mouse">
+                            <div class="wheel"></div>
+                        </div>
+                    </div></div>
+                <div class="swiper-slide"> <h1 class="text-center">TRANSFORMATION</h1>
+                    <p>En savoir plus</p>
+                    <div class="mouse_scroll">
+                        <div class="mouse">
+                            <div class="wheel"></div>
+                        </div>
+                    </div></div>
+                <div class="swiper-slide"><h1 class="text-center">MANAGEMENT <br> DE <br> TRANSITION</h1>
+                    <p>En savoir plus</p>
+                    <div class="mouse_scroll">
+                        <div class="mouse">
+                            <div class="wheel"></div>
+                        </div>
+                    </div></div>
+                <div class="swiper-slide"><h1 class="text-center">SUPPORT <br> OPERATIONNEL</h1>
+                    <p>En savoir plus</p>
+                    <div class="mouse_scroll">
+                        <div class="mouse">
+                            <div class="wheel"></div>
+                        </div>
+                    </div></div>
+                <div class="swiper-slide"> <h1 class="text-center">SUPPORT <br> CONTRACTUEL</h1>
+                    <p>En savoir plus</p>
+                    <div class="mouse_scroll">
+                        <div class="mouse">
+                            <div class="wheel"></div>
+                        </div>
+                    </div></div>
+            </div>
+        </div>
+    </div>
+    </a>
+
+
+    <section id="metier">
+        <h2 class="text-center mt-5 mb-4">CONSEIL EN ACHAT STRATEGIQUE & OPERATIONNEL</h2>
+        <p>HA Partners ainsi que son réseau (SI Achats, Professeur d’Université et professionnels de la fonction publique…) vous assurent une qualité de service exceptionnel :</p>
+        <div class="container-fluid mt-5" data-aos="zoom-in-up">
+            <div class="row">
+                <div class="col col-ml-2 col-lg-3">
+                    <div class="card mt-3">
+                        <img class="card-img-top" src="{{ asset('./image/contexte.jpg') }}">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Audit</h5>
+                            <ul class="card-text mt-3 mb-3">
+                                <li>Analyse de la valeur</li>
+                                <li>Benchmark</li>
+                                <li>Risk assesment</li>
+                                <li>Evaluation de la maturité SMART Method</li>
+                            </ul>
+                            <div class="text-center">
+                                <a href="{{ path('app_contact') }}" class="btn btn-primary text-center">Contacter-nous</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-ml-2 col-lg-3">
+                    <div class="card mt-3">
+                        <img class="card-img-top" src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Transformation <br> Management de Transition</h5>
+                            <ul class="card-text mt-3 mb-3">
+                                <li>Accompagnement sur l’implémentation des outils (SAP MM, ARIBA)</li>
+                                <li>Formations aux Outils Achats</li>
+                                <li>Optimisation des process/ KPI</li>
+                                <li>Externalisation, double sourcing</li>
+                            </ul>
+                            <div class="text-center">
+                                <a href="{{ path('app_contact') }}" class="btn btn-primary text-center">Contacter-nous</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-ml-2 col-lg-3">
+                    <div class="card mt-3">
+                        <img class="card-img-top" src="https://images.unsplash.com/photo-1573166364266-356ef04ae798?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Support <br> Operationnel</h5>
+                            <ul class="card-text mt-3 mb-3">
+                                <li>Sourcing (RFI, RFQ, BA Negotiation…)</li>
+                                <li>Supplier Assessment (QIA), Evaluation des Riques</li>
+                                <li>Optimisation du Panel Fournisseur</li>
+                                <li>CLAIM Managemen</li>
+                            </ul>
+                            <div class="text-center">
+                                <a href="{{ path('app_contact') }}" class="btn btn-primary text-center">Contacter-nous</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-ml-2 col-lg-3">
+                    <div class="card mt-3">
+                        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2017/01/05/00/15/chart-1953616_960_720.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Support <br> Contractuel</h5>
+                            <ul class="card-text mt-3 mb-3">
+                                <li>EPC/EPCM</li>
+                                <li>Specific Agreement, Tri-partite Agreement, Frame agreement</li>
+                                <li>Capex</li>
+                                <li>LOI</li>
+                            </ul>
+                            <div class="text-center">
+                                <a href="{{ path('app_contact') }}" class="btn btn-primary text-center">Contacter-nous</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="localisation" data-aos="zoom-in-down">
+        <h2 class="text-center">Nous trouver</h2>
+        <div class="container" >
+            <div class="row">
+                <div class="col-lg-4 border-end text-center border-light disp mt-4" >
+                    <i class="fa-solid bx fa-location-dot"></i>
+                    <p class="text-center mt-2">10 rue du Luxembourg <br> 25000 Besançon </p>
+                </div>
+                <div class="col-lg-4 border-end text-center border-light disp mt-4">
+                    <i class="fa-solid bx fa-phone"></i>
+                    <a href="tel:0651539693" class="mt-3">0651539693</a>
+                </div>
+                <div class="col-lg-4 text-center border-light disp mt-4">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p class="mt-3">contact@hapartners.fr</p>
+                </div>
+            </div>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2709.7128814913135!2d5.965511317443848!3d47.222200000000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sfr!4v1660001996655!5m2!1sen!2sfr" width="100%" height="250px" style="border:0; margin-top: 20px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <script type="module">
+
+        var swiper = new Swiper('.swiper', {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+
+
+
+{% endblock %}

@@ -1,0 +1,64 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Présentation{% endblock %}
+
+{% block body %}
+
+    <section class="qui">
+    <div class="text">
+        <h1>Qui sommes-nous ? </h1>
+    </div>
+    <div class="container-fluid">
+        <div class="row" data-aos="zoom-in-right" style="margin-top: 65px">
+            <div class="col-lg-4">
+                <img src="{{ asset('./image/store.jpg') }}" class="img-fluid img" alt="">
+            </div>
+            <div class="col-lg-8 text-end display">
+                <h2 class="text-center">CONSEILS EN ACHAT STRATEGIQUE ET OPERATIONNEL</h2>
+                <p>Les entreprises & les organisations achats ont été bouleversés par la crise épidémiques ces deux dernières années rendant ainsi les approvisionnements complexes.</p>
+                <p>La réponse à ces équations complexes quant aux pénuries ou aux hausses de prix significatives devient un défi mettant les équipes achats sous-tension.</p>
+                <p>HA Partners, une entreprise orientée résultat et satisfaction client vous propose de vous accompagner dans vos enjeux achats (CAPEX, OPEX, GENEX) en mettant à disposition les ressources adéquates à votre besoin (Pic de Charge, Prestations hors cœur de métier, difficultés spécifiques,).</p>
+                <p>Nous nous ferons un plaisir de vous faire gagner en réactivité et flexibilité tout en tenant compte de vos contraintes QCD (Qualité, Coût, Délai...).</p>
+            </div>
+        </div>
+        <div class="row" data-aos="zoom-in-left" style="margin-top: 65px">
+            <div class="col-lg-8 text-end display">
+                <h2 class="text-center">PRESENTONS-NOUS</h2>
+                <p>Passionné des achats qui après plus de 10 ans d’expérience internationale dans des groupes de renommée dans leur domaine (construction, ferroviaire et l’automobile)</p>
+                <p>Achats directs (Matières premières, Prestations Intellectuelles, Projets Clés en main, usines clés en main, localisation…).</p>
+                <p>Que des achats CAPEX (Construction & Rénovation de bâtiments, Machining, Outillage) puis les achats indirects (gestion de flotte automobile, assurances, facility management...).</p>
+                <p>HA Partners et son réseau de professionnels dans divers domaines (SI Achats, Professeur d’Université et professionnels de la fonction publique…) assurent une qualité de service.</p>
+            </div>
+            <div class="col-lg-4">
+                <img src="{{ asset('./image/logo.png') }}" class="img-fluid img" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="container" data-aos="fade-up">
+            <div class="row mb-5" style="margin-top: 65px">
+                <h2 class="text-center" >NOS VALEURS</h2>
+
+                <button class=" button left mt-5">
+                    Ecoute du besoin
+                    <div class="button__horizontal"></div>
+                    <div class="button__vertical"></div>
+                </button>
+
+                    <button class=" button left mt-5">
+                        Création de valeur
+                        <div class="button__horizontal"></div>
+                        <div class="button__vertical"></div>
+                    </button>
+
+                    <button class=" button left mt-5">
+                        Satisfaction du client
+                        <div class="button__horizontal"></div>
+                        <div class="button__vertical"></div>
+                    </button>
+            </div>
+    </div>
+
+
+    </section>
+{% endblock %}
