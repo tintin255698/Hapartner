@@ -36,6 +36,7 @@ class CandidatureController extends AbstractController
             $firstName = $form->get('firstName')->getData();
             $experience = $form->get('experience')->getData();
             $email = $form->get('email')->getData();
+            $email2 = $form->get('email')->getData();
             $telephone = $form->get('telephone')->getData();
             $lm = $form->get('lm')->getData();
             $cv = $form->get('cv')->getData();
@@ -44,7 +45,7 @@ class CandidatureController extends AbstractController
 
             $email = (new TemplatedEmail())
                 ->from($email)
-                ->to((new Address('vivien.joly@hotmail.fr')))
+                ->to(new Address('vivien.joly@hotmail.fr', 'Vivien'))
                 ->subject('Candidature')
                 ->context([
                     'firstName' => $firstName,
@@ -57,9 +58,22 @@ class CandidatureController extends AbstractController
                 ->attachFromPath($directory.'/'.$someNewFilename.'.'.$extension)
                 ->htmlTemplate('formulaire/candidature.html.twig');
             $mailer->send($email);
-            unlink($directory.'/'.$someNewFilename.'.'.$extension);
-            return $this->redirectToRoute('app_home');
 
+            unlink($directory.'/'.$someNewFilename.'.'.$extension);
+
+            $email2 = (new TemplatedEmail())
+                ->from(new Address('vivien.joly@hotmail.fr', 'Vivien'))
+                ->to($email2)
+                ->subject('Réponse à votre candidature')
+                ->context([
+                    'firstName' => $firstName,
+                    'name' => $nom,
+                ])
+                ->htmlTemplate('formulaire/reponseCandidature.html.twig');
+            $mailer->send($email2);
+
+            $this->addFlash('success', 'Votre candidature est envoyée !');
+            return $this->redirectToRoute('app_home');
         }
 
         return $this->render('candidature/index.html.twig', [

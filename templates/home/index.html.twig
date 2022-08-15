@@ -50,15 +50,22 @@
     </div>
     </a>
 
+    {% for label, messages in app.flashes  %}
+        <div class="alert mb-5 alert-{{ label }} fade show display-6 text-center" role="alert" data-mdb-color="{{ label }}">
+            {% for message in messages %}
+                {{ message }}
+            {% endfor%}
+        </div>
+    {% endfor %}
 
     <section id="metier">
         <h2 class="text-center mt-5 mb-4">CONSEIL EN ACHAT STRATEGIQUE & OPERATIONNEL</h2>
         <p>HA Partners ainsi que son réseau (SI Achats, Professeur d’Université et professionnels de la fonction publique…) vous assurent une qualité de service exceptionnel :</p>
-        <div class="container-fluid mt-5" data-aos="zoom-in-up">
+        <div class="container-fluid mt-5">
             <div class="row">
                 <div class="col col-ml-2 col-lg-3">
                     <div class="card mt-3">
-                        <img class="card-img-top" src="{{ asset('./image/contexte.jpg') }}">
+                        <img class="card-img-top" src="https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2006&q=80">
                         <div class="card-body">
                             <h5 class="card-title text-center">Audit</h5>
                             <ul class="card-text mt-3 mb-3">
@@ -75,7 +82,7 @@
                 </div>
                 <div class="col col-ml-2 col-lg-3">
                     <div class="card mt-3">
-                        <img class="card-img-top" src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="Card image cap">
+                        <img class="card-img-top" src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title text-center">Transformation <br> Management de Transition</h5>
                             <ul class="card-text mt-3 mb-3">
@@ -109,7 +116,7 @@
                 </div>
                 <div class="col col-ml-2 col-lg-3">
                     <div class="card mt-3">
-                        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2017/01/05/00/15/chart-1953616_960_720.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title text-center">Support <br> Contractuel</h5>
                             <ul class="card-text mt-3 mb-3">
@@ -127,7 +134,7 @@
             </div>
         </div>
     </section>
-    <section class="localisation" data-aos="zoom-in-down">
+    <section class="localisation">
         <h2 class="text-center">Nous trouver</h2>
         <div class="container" >
             <div class="row">
@@ -167,7 +174,5 @@
             },
         });
     </script>
-
-
 
 {% endblock %}

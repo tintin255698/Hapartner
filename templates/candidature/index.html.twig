@@ -1,41 +1,10 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Candidature{% endblock %}
+{% block title %}Rejoignez-nous !{% endblock %}
 
 {% block body %}
 
-<style>
-
-    .back{
-        background-color: #17203A;
-        border-top-right-radius: 33px;
-        border-bottom-right-radius: 33px
-    }
-    p, h3{
-        color:white;
-    }
-    .disp2{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        min-height: 70%;
-    }
-    h3{
-        font-weight: bold;
-    }
-    p{
-        font-style:italic ;
-    }
-    .bord{
-        border: 1px black solid;
-        border-top-left-radius: 33px;
-        border-bottom-left-radius: 33px
-    }
-
-</style>
-
-<section class="contact">
+<section class="candidate">
     <div class="text">
         <h1>Nous rejoindre</h1>
     </div>
@@ -82,7 +51,6 @@
                 {{ form_row(form.envoyer) }}
             </div>
         </div>
-
 
         {{ form_end(form) }}
     </div>

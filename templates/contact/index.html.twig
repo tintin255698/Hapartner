@@ -1,38 +1,8 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Contact{% endblock %}
+{% block title %}Nous contacter{% endblock %}
 
 {% block body %}
-
-    <style>
-        .back{
-            background-color: #17203A;
-            border-top-right-radius: 33px;
-            border-bottom-right-radius: 33px
-        }
-        p, h3{
-            color:white;
-        }
-        .disp2{
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            align-items: center;
-            min-height: 70%;
-        }
-        h3{
-            font-weight: bold;
-        }
-        p{
-            font-style:italic ;
-        }
-        .bord{
-            border: 1px black solid;
-            border-top-left-radius: 33px;
-            border-bottom-left-radius: 33px
-        }
-
-    </style>
 
 <section class="contact">
     <div class="text">
@@ -40,7 +10,7 @@
     </div>
     <div class="container mb-5">
         <div class="row mt-5" data-aos="zoom-in-down">
-            <div class="col-lg-7 bord">
+            <div class="col-lg-8 bord">
                 <h2 class="text-center mt-5 mb-5">Envoyez-nous un message</h2>
                 {{ form_start(form) }}
                 <div class="row mt-3 mb-3">

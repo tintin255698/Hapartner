@@ -32,13 +32,14 @@ class ContactController extends AbstractController
             $firstName = $form->get('firstName')->getData();
             $business = $form->get('business')->getData();
             $email = $form->get('email')->getData();
+            $email2 = $form->get('email')->getData();
             $telephone = $form->get('telephone')->getData();
             $sujet = $form->get('sujet')->getData();
             $content = $form->get('content')->getData();
 
             $email = (new TemplatedEmail())
                 ->from($email)
-                ->to((new Address('vivien.joly@hotmail.fr')))
+                ->to(new Address('vivien.joly@hotmail.fr', 'Vivien'))
                 ->subject($sujet)
                 ->context([
                     'firstName' => $firstName,
@@ -52,10 +53,21 @@ class ContactController extends AbstractController
                 ->htmlTemplate('formulaire/contact.html.twig');
             $mailer->send($email);
 
+            $email2 = (new TemplatedEmail())
+                ->from(new Address('vivien.joly@hotmail.fr', 'Vivien'))
+                ->to($email2)
+                ->subject('Réponse à votre mail')
+                ->context([
+                    'firstName' => $firstName,
+                    'name' => $nom,
+                    'business' => $business,
+                ])
+                ->htmlTemplate('formulaire/reponseContact.html.twig');
+            $mailer->send($email2);
+
+            $this->addFlash('success', 'Votre message est envoyée !');
             return $this->redirectToRoute('app_home');
-
         }
-
         return $this->render('contact/index.html.twig', [
             'form' => $form->createView(),
         ]);

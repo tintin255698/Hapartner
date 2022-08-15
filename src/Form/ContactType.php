@@ -29,6 +29,7 @@ class ContactType extends AbstractType
                     'Transformation/ Management de Transition' => 'Transformation/ Management de Transition',
                     'Support Opérationnel' => 'Support Opérationnel',
                     'Support Contractuel' => 'Support Contractuel',
+                    'Autre' => 'Autre',
                 ]])
             ->add('content', TextareaType::class)
             ->add('envoyer', SubmitType::class,  ['row_attr' => [

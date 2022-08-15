@@ -29,7 +29,7 @@ class CandidatureType extends AbstractType
                 ]])
             ->add('email', EmailType::class, ['label' => 'Email',   'attr'=>['placeholder'=>'Votre email']] )
             ->add('telephone', TelType::class, ['label' => 'Téléphone',  'attr'=>['placeholder'=>'Votre téléphone']])
-            ->add('cv', FileType::class)
+            ->add('cv', FileType::class, ['label' => 'Curriculum Vitae'])
             ->add('lm', CKEditorType::class, ['label' => 'Lettre de motivation<span class="badge rounded-pill bg-success">Facultatif</span>','label_html'=>true, 'required' => false])
             ->add('envoyer', SubmitType::class,  ['row_attr' => [
                 'class' => 'text-end']])

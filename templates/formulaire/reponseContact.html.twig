@@ -1,0 +1,15 @@
+<div class="container-fluid">
+    <div class="row mb-5">
+        <div class="col-8">
+            <img src="{{ 'http://127.0.0.1:8000' ~ asset('image/logo.png') }}" alt="logo" style="height: 60px">
+        </div>
+    </div>
+    <p style="margin-bottom: 20px">Bonjour {{ firstName }} {{ name }},</p>
+    <p>Nous vous remercions de nous avoir contactés {% if business%} pour votre société {{ business }} {% endif %}.</p>
+    <p>Votre message fera l'objet d'une étude approfondie de notre part.</p>
+    <p>Nous ne manquerons pas de vous tenir informé(e) dans les meilleurs délais.</p>
+    <p style="margin-top: 20px">Nous vous informons que nos délais de traitement pourront s'allonger en raison de la situation actuelle liée au Covid-19. </p>
+    <p style="margin-top: 20px">Cordialement,</p>
+    <p>L'équipe HaPartners </p>
+
+</div>
