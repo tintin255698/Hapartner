@@ -7,43 +7,27 @@
     <body>
       <trans-unit id="u2rqKHO" resname="Audit">
         <source>Audit</source>
-        <target>Vivi</target>
+        <target>Audit</target>
       </trans-unit>
       <trans-unit id="H7WrI2B" resname="Transformation/ Management de Transition">
         <source>Transformation/ Management de Transition</source>
-        <target>Vivi</target>
+        <target>Transformation/Transitional Management</target>
       </trans-unit>
       <trans-unit id="DKSGzX_" resname="Support Opérationnel">
         <source>Support Opérationnel</source>
-        <target>Vivi</target>
+        <target>Operational Support</target>
       </trans-unit>
       <trans-unit id="c7g8ftF" resname="Support Contractuel">
         <source>Support Contractuel</source>
-        <target>Vivi</target>
+        <target>Contractual Support</target>
       </trans-unit>
       <trans-unit id="63LhaDu" resname="Autre">
         <source>Autre</source>
-        <target>Vivi</target>
+        <target>Other</target>
       </trans-unit>
-      <trans-unit id="NzDhtNp" resname="prenom.placeholder">
-        <source>prenom.placeholder</source>
-        <target>Your firstname</target>
-      </trans-unit>
-      <trans-unit id="rHHKiVR" resname="user.profil.age">
-        <source>user.profil.age</source>
-        <target>Age</target>
-      </trans-unit>
-      <trans-unit id="jvIhkrp" resname="user.profil.username">
-        <source>user.profil.username</source>
-        <target>Pseudo</target>
-      </trans-unit>
-      <trans-unit id="gqNTf.D" resname="name">
-        <source>name</source>
-        <target>Your Translated Label</target>
-      </trans-unit>
-      <trans-unit id="TTEAP72" resname="form.address_street">
-        <source>form.address_street</source>
-        <target>Your Translated Label</target>
+      <trans-unit id="ezIVv2e" resname="Entreprise&lt;span class=&quot;badge rounded-pill bg-success&quot;&gt;Facultatif&lt;/span&gt;">
+        <source>Entreprise&lt;span class="badge rounded-pill bg-success"&gt;Facultatif&lt;/span&gt;</source>
+        <target><![CDATA[Business<span class="badge rounded-pill bg-success">Optional</span>]]></target>
       </trans-unit>
     </body>
   </file>

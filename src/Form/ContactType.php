@@ -29,7 +29,7 @@ class ContactType extends AbstractType
         $builder
             ->add('firstName', TextType::class)
             ->add('name', TextType::class)
-            ->add('business', TextType::class, ['label' => 'Entreprise<span class="badge rounded-pill bg-success">Facultatif</span>','label_html'=>true, 'required' => false,  'attr'=>['placeholder'=>'Votre entreprise']])
+            ->add('business', TextType::class, ['label' => 'Entreprise<span class="badge rounded-pill bg-success">Facultatif</span>','label_html'=>true, 'required' => false, 'attr'=>['placeholder'=>'Votre entreprise'], 'translation_domain' => 'contact'])
             ->add('email', EmailType::class, ['label' => 'Email',   'attr'=>['placeholder'=>'Votre email']] )
             ->add('telephone', TelType::class, ['label' => 'Téléphone',  'attr'=>['placeholder'=>'Votre téléphone']])
             ->add('sujet', ChoiceType::class, [

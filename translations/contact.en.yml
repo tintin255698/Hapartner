@@ -3,5 +3,4 @@ Transformation/ Management de Transition: 'Transformation/Transitional Managemen
 Support Opérationnel: 'Operational Support'
 Support Contractuel: 'Contractual Support'
 Autre: 'Other'
-prenom:
-  placeholder: 'Your firstname'
+Entreprise<span class="badge rounded-pill bg-success">Facultatif</span>: 'Business<span class="badge rounded-pill bg-success">Optional</span>'
