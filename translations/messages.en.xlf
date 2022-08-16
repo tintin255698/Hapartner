@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="en" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="cx4BcOz" resname="Qui sommes-nous ?">
+        <source>Qui sommes-nous ?</source>
+        <target>Us ?</target>
+      </trans-unit>
+      <trans-unit id=".Oc4P86" resname="CONSEILS EN ACHAT STRATEGIQUE ET OPERATIONNEL">
+        <source>CONSEILS EN ACHAT STRATEGIQUE ET OPERATIONNEL</source>
+        <target>ADVICE ON STRATEGIC AND OPERATIONAL PURCHASING</target>
+      </trans-unit>
+      <trans-unit id="m_INGpE" resname="Les entreprises &amp; les organisations achats ont été bouleversés par la crise épidémiques ces deux dernières années rendant ainsi les approvisionnements complexes.">
+        <source>Les entreprises &amp; les organisations achats ont été bouleversés par la crise épidémiques ces deux dernières années rendant ainsi les approvisionnements complexes.</source>
+        <target><![CDATA[Purchasing companies & organizations have been disrupted by the epidemic crisis over the past two years, making procurement complex]]></target>
+      </trans-unit>
+      <trans-unit id="vMJE5j8" resname="La réponse à ces équations complexes quant aux pénuries ou aux hausses de prix significatives devient un défi mettant les équipes achats sous-tension.">
+        <source>La réponse à ces équations complexes quant aux pénuries ou aux hausses de prix significatives devient un défi mettant les équipes achats sous-tension.</source>
+        <target>The answer to these complex equations regarding shortages or significant price increases becomes a challenge that puts the purchasing teams under stress.</target>
+      </trans-unit>
+      <trans-unit id="cZNQ5zz" resname="HA Partners, une entreprise orientée résultat et satisfaction client vous propose de vous accompagner dans vos enjeux achats (CAPEX, OPEX, GENEX) en mettant à disposition les ressources adéquates à votre besoin (Pic de Charge, Prestations hors cœur de métier, difficultés spécifiques,).">
+        <source>HA Partners, une entreprise orientée résultat et satisfaction client vous propose de vous accompagner dans vos enjeux achats (CAPEX, OPEX, GENEX) en mettant à disposition les ressources adéquates à votre besoin (Pic de Charge, Prestations hors cœur de métier, difficultés spécifiques,).</source>
+        <target>HA Partners, a result-oriented and customer satisfaction-oriented company, offers to support you in your purchasing challenges (CAPEX, OPEX, GENEX) by providing the resources appropriate to your needs (peak load, non-core services, specific difficulties, ).</target>
+      </trans-unit>
+      <trans-unit id="_7RC49I" resname="Nous nous ferons un plaisir de vous faire gagner en réactivité et flexibilité tout en tenant compte de vos contraintes QCD (Qualité, Coût, Délai...).">
+        <source>Nous nous ferons un plaisir de vous faire gagner en réactivité et flexibilité tout en tenant compte de vos contraintes QCD (Qualité, Coût, Délai...).</source>
+        <target>We will be happy to make you more responsive and flexible while taking into account your QCD constraints (Quality, Cost, Time...).</target>
+      </trans-unit>
+      <trans-unit id="U14O6wb" resname="PRESENTONS-NOUS">
+        <source>PRESENTONS-NOUS</source>
+        <target>US</target>
+      </trans-unit>
+      <trans-unit id="VOmURnB" resname="Passionné des achats qui après plus de 10 ans d’expérience internationale dans des groupes de renommée dans leur domaine (construction, ferroviaire et l’automobile).">
+        <source>Passionné des achats qui après plus de 10 ans d’expérience internationale dans des groupes de renommée dans leur domaine (construction, ferroviaire et l’automobile).</source>
+        <target>Passionate about purchasing who after more than 10 years of international experience in renowned groups in their field (construction, rail and automotive).</target>
+      </trans-unit>
+      <trans-unit id="2KSjfF3" resname="Achats directs (Matières premières, Prestations Intellectuelles, Projets Clés en main, usines clés en main, localisation…).">
+        <source>Achats directs (Matières premières, Prestations Intellectuelles, Projets Clés en main, usines clés en main, localisation…).</source>
+        <target>Direct purchases (raw materials, intellectual services, turnkey projects, turnkey factories, location, etc.).</target>
+      </trans-unit>
+      <trans-unit id="IeVPfkq" resname="Que des achats CAPEX (Construction &amp; Rénovation de bâtiments, Machining, Outillage) puis les achats indirects (gestion de flotte automobile, assurances, facility management...).">
+        <source>Que des achats CAPEX (Construction &amp; Rénovation de bâtiments, Machining, Outillage) puis les achats indirects (gestion de flotte automobile, assurances, facility management...).</source>
+        <target><![CDATA[Only CAPEX purchases (Construction & Renovation of buildings, Machining, Tools) then indirect purchases (car fleet management, insurance, facility management, etc.).]]></target>
+      </trans-unit>
+      <trans-unit id="PI6utA3" resname="HA Partners et son réseau de professionnels dans divers domaines (SI Achats, Professeur d’Université et professionnels de la fonction publique…) assurent une qualité de service.">
+        <source>HA Partners et son réseau de professionnels dans divers domaines (SI Achats, Professeur d’Université et professionnels de la fonction publique…) assurent une qualité de service.</source>
+        <target>HA Partners and its network of professionals in various fields (IS Purchasing, University Professor and public service professionals, etc.) ensure a quality of service.</target>
+      </trans-unit>
+      <trans-unit id="4h6VhOU" resname="NOS VALEURS">
+        <source>NOS VALEURS</source>
+        <target>OUR VALUES</target>
+      </trans-unit>
+      <trans-unit id="Nf_QXJd" resname="Ecoute du besoin">
+        <source>Ecoute du besoin</source>
+        <target>Listening to the need</target>
+      </trans-unit>
+      <trans-unit id="_72OaIC" resname="Création de valeur">
+        <source>Création de valeur</source>
+        <target>Valuable creation</target>
+      </trans-unit>
+      <trans-unit id="q0iDikK" resname="Satisfaction du client">
+        <source>Satisfaction du client</source>
+        <target>Client satisfaction</target>
+      </trans-unit>
+      <trans-unit id="fdJRu9q" resname="AUDIT">
+        <source>AUDIT</source>
+        <target>AUDIT</target>
+      </trans-unit>
+      <trans-unit id="3TrjMlD" resname="En savoir plus">
+        <source>En savoir plus</source>
+        <target>Learn more</target>
+      </trans-unit>
+      <trans-unit id="YIZl273" resname="TRANSFORMATION">
+        <source>TRANSFORMATION</source>
+        <target>TRANSFORMATION</target>
+      </trans-unit>
+      <trans-unit id="0jh_5rp" resname="MANAGEMENT &lt;br&gt; DE &lt;br&gt; TRANSITION">
+        <source>MANAGEMENT &lt;br&gt; DE &lt;br&gt; TRANSITION</source>
+        <target><![CDATA[TRANSITIONAL <br> MANAGEMENT]]></target>
+      </trans-unit>
+      <trans-unit id="9JUKOyO" resname="SUPPORT &lt;br&gt; OPERATIONNEL">
+        <source>SUPPORT &lt;br&gt; OPERATIONNEL</source>
+        <target><![CDATA[OPERATIONAL <br> SUPPORT ]]></target>
+      </trans-unit>
+      <trans-unit id="xUv8Elv" resname="SUPPORT &lt;br&gt; CONTRACTUEL">
+        <source>SUPPORT &lt;br&gt; CONTRACTUEL</source>
+        <target><![CDATA[CONTRACTUAL <br> SUPPORT]]></target>
+      </trans-unit>
+      <trans-unit id="Qzol6yE" resname="CONSEIL EN ACHAT STRATEGIQUE &amp; OPERATIONNEL">
+        <source>CONSEIL EN ACHAT STRATEGIQUE &amp; OPERATIONNEL</source>
+        <target><![CDATA[CONSULTANCY IN STRATEGIC & OPERATIONAL PURCHASING]]></target>
+      </trans-unit>
+      <trans-unit id="jbb2nMw" resname="HA Partners ainsi que son réseau (SI Achats, Professeur d’Université et professionnels de la fonction publique…) vous assurent une qualité de service exceptionnel :">
+        <source>HA Partners ainsi que son réseau (SI Achats, Professeur d’Université et professionnels de la fonction publique…) vous assurent une qualité de service exceptionnel :</source>
+        <target>HA Partners and its network (SI Purchasing, University Professor and civil service professionals, etc.) provide you with an exceptional quality of service:</target>
+      </trans-unit>
+      <trans-unit id="u2rqKHO" resname="Audit">
+        <source>Audit</source>
+        <target>Audit</target>
+      </trans-unit>
+      <trans-unit id="WwutPk7" resname="Analyse de la valeur">
+        <source>Analyse de la valeur</source>
+        <target>Value analysis</target>
+      </trans-unit>
+      <trans-unit id="H6Mw4nG" resname="Benchmark">
+        <source>Benchmark</source>
+        <target>Benchmark</target>
+      </trans-unit>
+      <trans-unit id="2lrV9dC" resname="Risk assesment">
+        <source>Risk assesment</source>
+        <target>Risk assesment</target>
+      </trans-unit>
+      <trans-unit id="RzXQ33m" resname="Evaluation de la maturité SMART Method">
+        <source>Evaluation de la maturité SMART Method</source>
+        <target>Assessment of maturity SMART Method</target>
+      </trans-unit>
+      <trans-unit id="L8qGrsp" resname="Contacter-nous">
+        <source>Contacter-nous</source>
+        <target>Contact us</target>
+      </trans-unit>
+      <trans-unit id="5thWxGR" resname="Transformation &lt;br&gt; Management de Transition">
+        <source>Transformation &lt;br&gt; Management de Transition</source>
+        <target><![CDATA[Transformation <br> Transitional Management]]></target>
+      </trans-unit>
+      <trans-unit id="co1b8q0" resname="Accompagnement sur l’implémentation des outils (SAP MM, ARIBA)">
+        <source>Accompagnement sur l’implémentation des outils (SAP MM, ARIBA)</source>
+        <target>Support on the implementation of tools (SAP MM, ARIBA)</target>
+      </trans-unit>
+      <trans-unit id="kcD3Tcq" resname="Formations aux Outils Achats">
+        <source>Formations aux Outils Achats</source>
+        <target>Purchasing Tools Training</target>
+      </trans-unit>
+      <trans-unit id="12djPPG" resname="Optimisation des process/ KPI">
+        <source>Optimisation des process/ KPI</source>
+        <target>Process optimization / KPIs</target>
+      </trans-unit>
+      <trans-unit id="vpbovLB" resname="Externalisation, double sourcing">
+        <source>Externalisation, double sourcing</source>
+        <target>Externalisation, double sourcing</target>
+      </trans-unit>
+      <trans-unit id="uwm9OQY" resname="Support &lt;br&gt; Operationnel">
+        <source>Support &lt;br&gt; Operationnel</source>
+        <target><![CDATA[Operational <br> Support]]></target>
+      </trans-unit>
+      <trans-unit id="vzcnAyk" resname="Sourcing (RFI, RFQ, BA Negotiation…)">
+        <source>Sourcing (RFI, RFQ, BA Negotiation…)</source>
+        <target>Sourcing (RFI, RFQ, BA Negotiation…)</target>
+      </trans-unit>
+      <trans-unit id="K3k14wN" resname="Supplier Assessment (QIA), Evaluation des Riques">
+        <source>Supplier Assessment (QIA), Evaluation des Riques</source>
+        <target>Supplier Assessment (QIA), Evaluation des Riques</target>
+      </trans-unit>
+      <trans-unit id="olPxLwQ" resname="Optimisation du Panel Fournisseur">
+        <source>Optimisation du Panel Fournisseur</source>
+        <target>Supplier Panel Optimization</target>
+      </trans-unit>
+      <trans-unit id="wDWNWQ_" resname="CLAIM Management">
+        <source>CLAIM Management</source>
+        <target>CLAIM Management</target>
+      </trans-unit>
+      <trans-unit id="D4OQ8n4" resname="Support &lt;br&gt; Contractuel">
+        <source>Support &lt;br&gt; Contractuel</source>
+        <target><![CDATA[Contactual <br> Support]]></target>
+      </trans-unit>
+      <trans-unit id="ee_Koub" resname="EPC/EPCM">
+        <source>EPC/EPCM</source>
+        <target>EPC/EPCM</target>
+      </trans-unit>
+      <trans-unit id="JPkDLHg" resname="Specific Agreement, Tri-partite Agreement, Frame agreement">
+        <source>Specific Agreement, Tri-partite Agreement, Frame agreement</source>
+        <target>Specific Agreement, Tri-partite Agreement, Frame agreement</target>
+      </trans-unit>
+      <trans-unit id="WNNQtRr" resname="Capex">
+        <source>Capex</source>
+        <target>Capex</target>
+      </trans-unit>
+      <trans-unit id="4tMpSEm" resname="LOI">
+        <source>LOI</source>
+        <target>LOI</target>
+      </trans-unit>
+      <trans-unit id="RvkMiTN" resname="Nous trouver">
+        <source>Nous trouver</source>
+        <target>Find us</target>
+      </trans-unit>
+      <trans-unit id="ZfHgoFo" resname="Rejoignez-nous !">
+        <source>Rejoignez-nous !</source>
+        <target>Welcome in our team !</target>
+      </trans-unit>
+      <trans-unit id="w0K8Nky" resname="Nous rejoindre">
+        <source>Nous rejoindre</source>
+        <target>Join us</target>
+      </trans-unit>
+      <trans-unit id="nziugJj" resname="Nous contacter">
+        <source>Nous contacter</source>
+        <target>Contact us</target>
+      </trans-unit>
+      <trans-unit id="K1w9JnI" resname="Contact">
+        <source>Contact</source>
+        <target>Contact</target>
+      </trans-unit>
+      <trans-unit id="W5VXSbN" resname="Envoyez-nous un message">
+        <source>Envoyez-nous un message</source>
+        <target>Send us a message</target>
+      </trans-unit>
+      <trans-unit id="SWtMYIv" resname="Contactez-nous">
+        <source>Contactez-nous</source>
+        <target>Contact us</target>
+      </trans-unit>
+      <trans-unit id="eeXPIN4" resname="Adresse">
+        <source>Adresse</source>
+        <target>Address</target>
+      </trans-unit>
+      <trans-unit id="zExCS1c" resname="Téléphone">
+        <source>Téléphone</source>
+        <target>Phone</target>
+      </trans-unit>
+      <trans-unit id="UzFhc1Y" resname="Accueil">
+        <source>Accueil</source>
+        <target>Home</target>
+      </trans-unit>
+      <trans-unit id="Hp6lq7o" resname="Copyright Com25.fr Tous droits réservés">
+        <source>Copyright Com25.fr Tous droits réservés</source>
+        <target>Copyright Com25.fr All Rights Reserved</target>
+      </trans-unit>
+      <trans-unit id="4yW.j5A" resname="Prénom">
+        <source>Prénom</source>
+        <target>FirstName</target>
+      </trans-unit>
+      <trans-unit id="ssEkU20" resname="Nom">
+        <source>Nom</source>
+        <target>Lastname</target>
+      </trans-unit>
+      <trans-unit id="SwAMHFv" resname="Entreprise">
+        <source>Entreprise</source>
+        <target>Business</target>
+      </trans-unit>
+      <trans-unit id="lpzL089" resname="Email">
+        <source>Email</source>
+        <target>Email</target>
+      </trans-unit>
+      <trans-unit id="21nrsnI" resname="Sujet">
+        <source>Sujet</source>
+        <target>Subject</target>
+      </trans-unit>
+      <trans-unit id="em3lZw6" resname="Contenu">
+        <source>Contenu</source>
+        <target>Content</target>
+      </trans-unit>
+      <trans-unit id="eQdSCfK" resname="Envoyer">
+        <source>Envoyer</source>
+        <target>Send</target>
+      </trans-unit>
+      <trans-unit id="bf2y8Z." resname="Votre prénom">
+        <source>Votre prénom</source>
+        <target>Your firstname</target>
+      </trans-unit>
+      <trans-unit id="LbKonXo" resname="Votre nom">
+        <source>Votre nom</source>
+        <target>Your lastname</target>
+      </trans-unit>
+      <trans-unit id="VCqadD9" resname="Votre entreprise">
+        <source>Votre entreprise</source>
+        <target>Your business</target>
+      </trans-unit>
+      <trans-unit id="oPt21Gu" resname="Votre email">
+        <source>Votre email</source>
+        <target>Your email</target>
+      </trans-unit>
+      <trans-unit id="sXjcdqK" resname="Sujet du message">
+        <source>Sujet du message</source>
+        <target>Subject</target>
+      </trans-unit>
+      <trans-unit id="UGRH7BJ" resname="Contenu du message">
+        <source>Contenu du message</source>
+        <target>Your message</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,65 +1,73 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Nous contacter{% endblock %}
+{% block title %}{% trans %}Nous contacter{% endtrans %}{% endblock %}
 
 {% block body %}
 
 <section class="contact">
     <div class="text">
-        <h1>Contact</h1>
+        <h1>{% trans %}Contact{% endtrans %}</h1>
     </div>
     <div class="container mb-5">
         <div class="row mt-5" data-aos="zoom-in-down">
             <div class="col-lg-8 bord">
-                <h2 class="text-center mt-5 mb-5">Envoyez-nous un message</h2>
+                <h2 class="text-center mt-5 mb-5">{% trans %}Envoyez-nous un message{% endtrans %}</h2>
                 {{ form_start(form) }}
                 <div class="row mt-3 mb-3">
                     <div class="col-lg-6">
-                        {{ form_row(form.firstName) }}
+                        {{ form_label(form.firstName, 'Prénom'|trans) }}
+                        {{ form_widget(form.firstName, { 'attr': {'placeholder': 'Votre prénom'|trans} }) }}
                     </div>
                     <div class="col-lg-6">
-                        {{ form_row(form.name) }}
+                        {{ form_label(form.name, 'Nom'|trans) }}
+                        {{ form_widget(form.name, { 'attr': {'placeholder': 'Votre nom'|trans} }) }}
                     </div>
                 </div>
                 <div class="row ">
                     <div class="col mb-3">
-                        {{ form_row(form.business) }}
+                        {{ form_label(form.business, 'Entreprise'|trans) }}
+                        {{ form_widget(form.business, { 'attr': {'placeholder': 'Votre entreprise'|trans} }) }}
                     </div>
                 </div>
                 <div class="row  mb-3">
                     <div class="col-lg-6">
-                        {{ form_row(form.email) }}
+                        {{ form_label(form.email, 'Email'|trans) }}
+                        {{ form_widget(form.email, { 'attr': {'placeholder': 'Votre email'|trans} }) }}
                     </div>
                     <div class="col-lg-6">
-                        {{ form_row(form.telephone) }}
+                        {{ form_label(form.telephone, 'Téléphone'|trans) }}
+                        {{ form_widget(form.telephone, { 'attr': {'placeholder': 'Votre email'|trans} }) }}
                     </div>
                 </div>
                 <div class="row  mb-3">
                     <div class="col">
-                        {{ form_row(form.sujet) }}
+                        {{ form_label(form.sujet, 'Sujet'|trans) }}
+                        {{ form_widget(form.sujet, { 'attr': {'placeholder': 'Sujet du message'|trans} }) }}
                     </div>
                 </div>
                     <div class="row mb-3">
                         <div class="col">
-                            {{ form_row(form.content) }}
+                            {{ form_label(form.content, 'Contenu'|trans) }}
+                            {{ form_widget(form.content, { 'attr': {'placeholder': 'Contenu du message'|trans} }) }}
                         </div>
                     </div>
-                    <div class="row mb-5 mb-3">
+                    <div class="row mb-5 mb-3 text-end">
                         <div class="col">
-                            {{ form_row(form.envoyer) }}
+                            {{ form_label(form.envoyer, 'Envoyer'|trans) }}
+                            {{ form_widget(form.envoyer)}}
                         </div>
                     </div>
                 {{ form_end(form) }}
             </div>
             <div class="col-lg-4 back">
-                <h2 class="text-center mb-5 mt-5">Contactez-nous</h2>
+                <h2 class="text-center mb-5 mt-5">{% trans %}Contactez-nous{% endtrans %}</h2>
             <div class="disp2">
                     <div>
-                    <h3 class="text-center mb-3">Adresse</h3>
+                    <h3 class="text-center mb-3">{% trans %}Adresse{% endtrans %}</h3>
                     <p>10 rue du Luxembourg - 25000 Besançon</p>
                   </div>
                     <div>
-                        <h3 class="text-center mb-3">Téléphone</h3>
+                        <h3 class="text-center mb-3">{% trans %}Téléphone{% endtrans %}</h3>
                         <p>0651539693</p>
                     </div>
                     <div>

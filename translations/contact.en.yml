@@ -1,0 +1,7 @@
+Audit: 'Audit'
+Transformation/ Management de Transition: 'Transformation/Transitional Management'
+Support Opérationnel: 'Operational Support'
+Support Contractuel: 'Contractual Support'
+Autre: 'Other'
+prenom:
+  placeholder: 'Your firstname'
