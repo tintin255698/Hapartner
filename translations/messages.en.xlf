@@ -277,6 +277,10 @@
         <source>Contenu du message</source>
         <target>Your message</target>
       </trans-unit>
+      <trans-unit id="yBFB55A" resname="Votre téléphone">
+        <source>Votre téléphone</source>
+        <target>Your phone</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
