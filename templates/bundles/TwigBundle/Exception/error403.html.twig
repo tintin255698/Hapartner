@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{% trans %}Page d'erreur{% endtrans %}{% endblock %}
+
+{% block body %}
+    <div class="container erreur">
+
+        <h1 class="text-center display-2 mt-5 mb-5">Page inaccessible !</h1>
+        <div class="text-center">
+            <h2>Vous n'avez pas le droit d'accéder à cette page ! Merci de cliquer <a
+                        href="{{ path('app_home') }}"> ici</a> </h2>
+        </div>
+        <img src="{{ asset('/image/logo.png') }}"  class="img-fluid mt-5 mb-5" alt="HaPartners Logo">
+    </div>
+{% endblock %}

@@ -587,6 +587,22 @@ a:hover{
   }
 }
 
+.erreur {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  img {
+    border-radius: 30px;
+  }
+  h2{
+    color: #17203A;
+  }
+  h1{
+    margin-top: 500px;
+  }
+}
+
 @media(max-width: 930px) {
 
   .logo {
