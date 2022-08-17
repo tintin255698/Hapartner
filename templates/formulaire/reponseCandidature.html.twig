@@ -1,16 +1,18 @@
 <div class="container-fluid">
     <div class="row mb-5">
     <div class="col-8">
-        <img src="{{ 'http://127.0.0.1:8000' ~ asset('image/logo.png') }}" alt="logo" style="height: 60px">
+        <img src="{{ hostname ~ asset('image/logo.png') }}" alt="logo" style="height: 100px">
     </div>
     </div>
-    <p style="margin-bottom: 20px">Bonjour {{ firstName }} {{ name }},</p>
-    <p>Nous vous remercions d'avoir candidaté pour travailler dans notre entreprise et sommes sensibles à l'intérêt que vous portez à notre société.</p>
-    <p>Votre candidature fera l'objet d'une étude approfondie.</p>
-    <p>Nous ne manquerons pas de vous tenir informé(e) dans les meilleurs délais de la suite qui lui sera donnée.</p>
-    <p style="margin-top: 20px">Nous vous informons que nos délais de traitement pourront s'allonger en raison de la situation actuelle liée au Covid-19. </p>
-    <p style="margin-top: 20px">Cordialement,</p>
-    <p style="margin-top: 20px">L'équipe recrutement HaPartners </p>
 
-    <p style="font-style: italic">Conformément aux articles 38 et suivants de la loi n° 78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés, tout candidat dispose d'un droit d'accès, peut obtenir communication, rectification et/ou suppression des informations le concernant. Merci d'adresser vos demandes à contact@hapartners.fr.</p>
+    <p style="margin-bottom: 20px">{% trans %}Bonjour {% endtrans %} {{ firstName }} {{ name }},</p>
+    <p>{% trans %}Nous vous remercions d'avoir candidaté pour travailler dans notre entreprise et sommes sensibles à l'intérêt que vous portez à notre société.{% endtrans %}</p>
+    <p>{% trans %}Votre candidature fera l'objet d'une étude approfondie.{% endtrans %}</p>
+    <p>{% trans %}Nous ne manquerons pas de vous tenir informé(e) dans les meilleurs délais de la suite qui lui sera donnée.{% endtrans %}</p>
+    <p style="margin-top: 20px">{% trans %}Nous vous informons que nos délais de traitement pourront s'allonger en raison de la situation actuelle liée au Covid-19.{% endtrans %}</p>
+    <p style="margin-top: 20px">{% trans %}Cordialement,{% endtrans %}</p>
+    <p style="margin-top: 20px">{% trans %}L'équipe recrutement HaPartners{% endtrans %}</p>
+
+    <p style="font-style: italic">{% trans %}Conformément aux articles 38 et suivants de la loi n° 78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés, tout candidat dispose d'un droit d'accès, peut obtenir communication, rectification et/ou suppression des informations le concernant. Merci d'adresser vos demandes à contact@hapartners.fr.{% endtrans %}</p>
+
 </div>

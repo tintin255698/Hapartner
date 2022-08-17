@@ -14,7 +14,13 @@
             <li><a href="{{ path('app_us') }}">{% trans %}Qui sommes-nous ?{% endtrans %}</a></li>
             <li><a href="{{ path('app_contact') }}">{% trans %}Contact{% endtrans %}</a></li>
             <li><a href="{{ path('app_candidature') }}">{% trans %}Nous rejoindre{% endtrans %}</a></li>
+            {% for locale in locales %}
+                {% if locale != app.request.locale %}
+                    <li><a href="{{ path('change_locale', {'locale': locale}) }}">{{ locale }}</a></li>
+                {% endif %}
+            {% endfor %}
         </ul>
     </div>
 </nav>
+
 

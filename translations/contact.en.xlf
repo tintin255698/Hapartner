@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file source-language="en" target-language="en" datatype="plaintext" original="file.ext">
+  <file source-language="fr" target-language="en" datatype="plaintext" original="file.ext">
     <header>
       <tool tool-id="symfony" tool-name="Symfony"/>
     </header>
@@ -28,6 +28,26 @@
       <trans-unit id="ezIVv2e" resname="Entreprise&lt;span class=&quot;badge rounded-pill bg-success&quot;&gt;Facultatif&lt;/span&gt;">
         <source>Entreprise&lt;span class="badge rounded-pill bg-success"&gt;Facultatif&lt;/span&gt;</source>
         <target><![CDATA[Business<span class="badge rounded-pill bg-success">Optional</span>]]></target>
+      </trans-unit>
+      <trans-unit id="iTYntdm" resname="Moins de 1 à 3 années">
+        <source>Moins de 1 à 3 années</source>
+        <target>Less than 1 to 3 years</target>
+      </trans-unit>
+      <trans-unit id="LVjwa9d" resname="De 3 à 6 années">
+        <source>De 3 à 6 années</source>
+        <target>From 3 to 6 years</target>
+      </trans-unit>
+      <trans-unit id="XlZzgGM" resname="De 3 à 10 années">
+        <source>De 3 à 10 années</source>
+        <target>From 3 to 10 years</target>
+      </trans-unit>
+      <trans-unit id="xXMTcLF" resname="Plus de 10 années">
+        <source>Plus de 10 années</source>
+        <target>More than 10 years</target>
+      </trans-unit>
+      <trans-unit id="miYHlDr" resname="Lettre de motivation&lt;span class=&quot;badge rounded-pill bg-success&quot;&gt;Facultatif&lt;/span&gt;">
+        <source>Lettre de motivation&lt;span class="badge rounded-pill bg-success"&gt;Facultatif&lt;/span&gt;</source>
+        <target><![CDATA[Cover Letter<span class="badge rounded-pill bg-success">Optional</span>]]></target>
       </trans-unit>
     </body>
   </file>

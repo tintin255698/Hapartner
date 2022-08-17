@@ -21,9 +21,10 @@
                 {{ form_row(form.name) }}
             </div>
         </div>
-        <div class="row ">
-            <div class="col mb-3">
-                {{ form_row(form.experience) }}
+        <div class="row mb-4">
+            <div class="col">
+                {{ form_label(form.experience, 'Expérience'|trans) }}
+                {{ form_widget(form.experience) }}
             </div>
         </div>
         <div class="row ">

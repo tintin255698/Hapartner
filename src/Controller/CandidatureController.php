@@ -13,6 +13,7 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Mailer\MailerInterface;
 use Symfony\Component\Mime\Address;
 use Symfony\Component\Routing\Annotation\Route;
+use Symfony\Contracts\Translation\TranslatorInterface;
 
 class CandidatureController extends AbstractController
 {
@@ -20,7 +21,7 @@ class CandidatureController extends AbstractController
      * @Route("/candidature", name="app_candidature")
      * @throws \Symfony\Component\Mailer\Exception\TransportExceptionInterface
      */
-    public function index(Request $request, MailerInterface $mailer): Response
+    public function index(Request $request, MailerInterface $mailer, TranslatorInterface $translator): Response
     {
         $candidature = new Candidature();
 
@@ -32,6 +33,7 @@ class CandidatureController extends AbstractController
             $someNewFilename = 'CV'.'-'.uniqid();
             $directory = 'image';
 
+            $hostname = $request->getSchemeAndHttpHost();
             $nom = $form->get('name')->getData();
             $firstName = $form->get('firstName')->getData();
             $experience = $form->get('experience')->getData();
@@ -68,11 +70,14 @@ class CandidatureController extends AbstractController
                 ->context([
                     'firstName' => $firstName,
                     'name' => $nom,
+                    'hostname' => $hostname
                 ])
                 ->htmlTemplate('formulaire/reponseCandidature.html.twig');
             $mailer->send($email2);
 
-            $this->addFlash('success', 'Votre candidature est envoyée !');
+            $message = $translator->trans('Votre candidature est envoyée !');
+            $this->addFlash('success', $message);
+
             return $this->redirectToRoute('app_home');
         }
 

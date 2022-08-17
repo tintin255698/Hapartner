@@ -11,6 +11,7 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Mailer\MailerInterface;
 use Symfony\Component\Mime\Address;
 use Symfony\Component\Routing\Annotation\Route;
+use Symfony\Contracts\Translation\TranslatorInterface;
 
 class ContactController extends AbstractController
 {
@@ -18,7 +19,7 @@ class ContactController extends AbstractController
      * @Route("/nous-contacter", name="app_contact")
      * @throws \Symfony\Component\Mailer\Exception\TransportExceptionInterface
      */
-    public function index(Request $request, MailerInterface $mailer): Response
+    public function index(Request $request, MailerInterface $mailer, TranslatorInterface $translator): Response
     {
         $contact = new Contact();
 
@@ -28,6 +29,7 @@ class ContactController extends AbstractController
 
         if ($form->isSubmitted() && $form->isValid()) {
 
+            $hostname = $request->getSchemeAndHttpHost();
             $nom = $form->get('name')->getData();
             $firstName = $form->get('firstName')->getData();
             $business = $form->get('business')->getData();
@@ -61,11 +63,13 @@ class ContactController extends AbstractController
                     'firstName' => $firstName,
                     'name' => $nom,
                     'business' => $business,
+                    'hostname' => $hostname
                 ])
                 ->htmlTemplate('formulaire/reponseContact.html.twig');
             $mailer->send($email2);
 
-            $this->addFlash('success', 'Votre message est envoyée !');
+            $message = $translator->trans('Votre message est envoyée !');
+            $this->addFlash('success', $message);
             return $this->redirectToRoute('app_home');
         }
         return $this->render('contact/index.html.twig', [

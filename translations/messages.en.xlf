@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file source-language="en" target-language="en" datatype="plaintext" original="file.ext">
+  <file source-language="fr" target-language="en" datatype="plaintext" original="file.ext">
     <header>
       <tool tool-id="symfony" tool-name="Symfony"/>
     </header>
     <body>
       <trans-unit id="cx4BcOz" resname="Qui sommes-nous ?">
         <source>Qui sommes-nous ?</source>
-        <target>Us ?</target>
+        <target>Us</target>
       </trans-unit>
       <trans-unit id=".Oc4P86" resname="CONSEILS EN ACHAT STRATEGIQUE ET OPERATIONNEL">
         <source>CONSEILS EN ACHAT STRATEGIQUE ET OPERATIONNEL</source>
@@ -227,7 +227,7 @@
       </trans-unit>
       <trans-unit id="4yW.j5A" resname="Prénom">
         <source>Prénom</source>
-        <target>FirstName</target>
+        <target>Firstname</target>
       </trans-unit>
       <trans-unit id="ssEkU20" resname="Nom">
         <source>Nom</source>
@@ -280,6 +280,74 @@
       <trans-unit id="yBFB55A" resname="Votre téléphone">
         <source>Votre téléphone</source>
         <target>Your phone</target>
+      </trans-unit>
+      <trans-unit id="aq3E7Ts" resname="Contenu du message en 1000 caractères maximum">
+        <source>Contenu du message en 1000 caractères maximum</source>
+        <target>Content of the message in 1000 characters maximum</target>
+      </trans-unit>
+      <trans-unit id="qCzc7OC" resname="Expérience">
+        <source>Expérience</source>
+        <target>Experience</target>
+      </trans-unit>
+      <trans-unit id="LuSRFJ8" resname="Votre candidature est envoyée !">
+        <source>Votre candidature est envoyée !</source>
+        <target>Your application is sent !</target>
+      </trans-unit>
+      <trans-unit id="NObhgTx" resname="Votre message est envoyée !">
+        <source>Votre message est envoyée !</source>
+        <target>Your message is sent !</target>
+      </trans-unit>
+      <trans-unit id="kXLo7sm" resname="Bonjour">
+        <source>Bonjour</source>
+        <target>Hello,</target>
+      </trans-unit>
+      <trans-unit id="CGYLWd5" resname="Nous vous remercions d'avoir candidaté pour travailler dans notre entreprise et sommes sensibles à l'intérêt que vous portez à notre société.">
+        <source>Nous vous remercions d'avoir candidaté pour travailler dans notre entreprise et sommes sensibles à l'intérêt que vous portez à notre société.</source>
+        <target>We thank you for applying to work in our company and appreciate your interest in our company.</target>
+      </trans-unit>
+      <trans-unit id="Dz97cmL" resname="Votre candidature fera l'objet d'une étude approfondie.">
+        <source>Votre candidature fera l'objet d'une étude approfondie.</source>
+        <target>Your application will be the subject of an in-depth study.</target>
+      </trans-unit>
+      <trans-unit id="2k3jfja" resname="Nous ne manquerons pas de vous tenir informé(e) dans les meilleurs délais de la suite qui lui sera donnée.">
+        <source>Nous ne manquerons pas de vous tenir informé(e) dans les meilleurs délais de la suite qui lui sera donnée.</source>
+        <target>We will not fail to keep you informed as soon as possible of the follow-up that will be given to it.</target>
+      </trans-unit>
+      <trans-unit id="aNpaW_X" resname="Nous vous informons que nos délais de traitement pourront s'allonger en raison de la situation actuelle liée au Covid-19.">
+        <source>Nous vous informons que nos délais de traitement pourront s'allonger en raison de la situation actuelle liée au Covid-19.</source>
+        <target>We inform you that our processing times may be longer due to the current situation related to Covid-19.</target>
+      </trans-unit>
+      <trans-unit id="A0qx1I0" resname="Cordialement,">
+        <source>Cordialement,</source>
+        <target>Cordially,</target>
+      </trans-unit>
+      <trans-unit id="bS0aepQ" resname="L'équipe recrutement HaPartners">
+        <source>L'équipe recrutement HaPartners</source>
+        <target>The HaPartners recruitment team</target>
+      </trans-unit>
+      <trans-unit id="HkQyRcZ" resname="Conformément aux articles 38 et suivants de la loi n° 78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés, tout candidat dispose d'un droit d'accès, peut obtenir communication, rectification et/ou suppression des informations le concernant. Merci d'adresser vos demandes à contact@hapartners.fr.">
+        <source>Conformément aux articles 38 et suivants de la loi n° 78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés, tout candidat dispose d'un droit d'accès, peut obtenir communication, rectification et/ou suppression des informations le concernant. Merci d'adresser vos demandes à contact@hapartners.fr.</source>
+        <target>In accordance with articles 38 and following of law n ° 78-17 of January 6, 1978 relating to data processing, files and freedoms, any candidate has a right of access, can obtain communication, rectification and/or deletion information about him. Please send your requests to contact@hapartners.fr.</target>
+      </trans-unit>
+      <trans-unit id="wG8kV4J" resname="Nous vous remercions de nous avoir contactés">
+        <source>Nous vous remercions de nous avoir contactés</source>
+        <target>Thank you for contacting us</target>
+      </trans-unit>
+      <trans-unit id="mN6F.wO" resname="pour votre société">
+        <source>pour votre société</source>
+        <target>for your company</target>
+      </trans-unit>
+      <trans-unit id="BREvKrZ" resname="Votre message fera l'objet d'une étude approfondie de notre part.">
+        <source>Votre message fera l'objet d'une étude approfondie de notre part.</source>
+        <target>Your message will be the subject of an in-depth study on our part.</target>
+      </trans-unit>
+      <trans-unit id="kG12ldc" resname="Nous ne manquerons pas de vous tenir informé(e) dans les meilleurs délais.">
+        <source>Nous ne manquerons pas de vous tenir informé(e) dans les meilleurs délais.</source>
+        <target>We will keep you informed as soon as possible.</target>
+      </trans-unit>
+      <trans-unit id="aknKq_l" resname="L'équipe HaPartners">
+        <source>L'équipe HaPartners</source>
+        <target>The HaPartners team</target>
       </trans-unit>
     </body>
   </file>

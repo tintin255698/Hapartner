@@ -48,7 +48,7 @@
                     <div class="row mb-3">
                         <div class="col">
                             {{ form_label(form.content, 'Contenu'|trans) }}
-                            {{ form_widget(form.content, { 'attr': {'placeholder': 'Contenu du message'|trans} }) }}
+                            {{ form_widget(form.content, { 'attr': {'placeholder': 'Contenu du message en 1000 caractères maximum'|trans, 'maxlength' : 1000} }) }}
                         </div>
                     </div>
                     <div class="row mb-5 mb-3 text-end">
